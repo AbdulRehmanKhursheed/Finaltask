@@ -4,7 +4,7 @@ import { Bus } from '../type/document/Bus_document';
 import { DeleteBus, GetBus, SaveBus, UpdateBus } from '../type/request/Bus.request';
 import { SaveUpdateResBus } from '../type/responses/Bus.response';
 import CustomeError from '../utills/error';
-const auth=require('../middleware/auth');
+
 export class BusRoutes {
   router: express.Router;
   constructor() {
